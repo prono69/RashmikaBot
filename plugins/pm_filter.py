@@ -774,9 +774,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                  ],[
                     InlineKeyboardButton('♻️𝐇𝐞𝐥𝐩♻️', callback_data='help'),
                     InlineKeyboardButton('♻️𝐀𝐛𝐨𝐮𝐭♻️', callback_data='about')
-                  ],[
-                    InlineKeyboardButton('🌻 𝚂𝚘𝚞𝚛𝚌𝚎 𝙲𝚘𝚍𝚎 🌻', url="https://github.com/MyBotzz/RashmikaBot") 
-                   ]]
+                 ]] 
         
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
@@ -793,11 +791,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "filters":
         buttons = [[
-            InlineKeyboardButton('Mᴀɴᴜᴀʟ FIʟᴛᴇʀ', callback_data='manuelfilter'),
-            InlineKeyboardButton('Aᴜᴛᴏ FIʟᴛᴇʀ', callback_data='autofilter')
+            InlineKeyboardButton('🛠 Mᴀɴᴜᴀʟ FIʟᴛᴇʀ', callback_data='manuelfilter'),
+            InlineKeyboardButton('⚒ Aᴜᴛᴏ FIʟᴛᴇʀ', callback_data='autofilter')
         ],[
             InlineKeyboardButton('⟸ Bᴀᴄᴋ', callback_data='help'),
-            InlineKeyboardButton('Gʟᴏʙᴀʟ Fɪʟᴛᴇʀs', callback_data='global_filters')
+            InlineKeyboardButton('🌏 Gʟᴏʙᴀʟ Fɪʟᴛᴇʀs', callback_data='global_filters')
         ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -830,17 +828,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
     
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('FIʟᴛᴇʀs', callback_data='filters'),
-            InlineKeyboardButton('Fɪʟᴇ Sᴛᴏʀᴇ', callback_data='store_file')
+            InlineKeyboardButton('🛠 FIʟᴛᴇʀs', callback_data='filters'),
+            InlineKeyboardButton('📓 Fɪʟᴇ Sᴛᴏʀᴇ', callback_data='store_file')
         ], [
-            InlineKeyboardButton('Cᴏɴɴᴇᴄᴛɪᴏɴ', callback_data='coct'),
-            InlineKeyboardButton('Exᴛʀᴀ Mᴏᴅs', callback_data='extra')
+            InlineKeyboardButton('🎛 Cᴏɴɴᴇᴄᴛɪᴏɴ', callback_data='coct'),
+            InlineKeyboardButton('🛡 Exᴛʀᴀ Mᴏᴅs', callback_data='extra')
         ], [
-            InlineKeyboardButton('𝐇𝐨𝐦𝐞', callback_data='start'),
-            InlineKeyboardButton('𝐒𝐭𝐚𝐭𝐮𝐬', callback_data='stats')
-         ],[
-            InlineKeyboardButton('🌻 𝚂𝚘𝚞𝚛𝚌𝚎 𝙲𝚘𝚍𝚎 🌻', url="https://github.com/MyBotzz/RashmikaBot")
-        ]]
+            InlineKeyboardButton('🏘 𝐇𝐨𝐦𝐞', callback_data='start'),
+            InlineKeyboardButton('🔰 𝐒𝐭𝐚𝐭𝐮𝐬', callback_data='stats')
+        ]] 
         
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
@@ -855,14 +851,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('Dᴇᴠᴏʟᴏᴘᴇʀ',callback_data="owner_info"),
-            InlineKeyboardButton('Sᴏᴜʀᴄᴇ Cᴏᴅᴇ', callback_data='source')
+            InlineKeyboardButton('👨‍💻 Dᴇᴠᴏʟᴏᴘᴇʀ', url=f"https://t.me/aboutexinos"),
+            InlineKeyboardButton('❤️ Sᴏᴜʀᴄᴇ Cᴏᴅᴇ', callback_data='source')
         ],[
-            InlineKeyboardButton('𝐇𝐨𝐦𝐞', callback_data='start'),
-            InlineKeyboardButton('𝐂𝐥𝐨𝐬𝐞', callback_data='close_data')
-        ],[
-            InlineKeyboardButton('🌻 𝚂𝚘𝚞𝚛𝚌𝚎 𝙲𝚘𝚍𝚎 🌻', url="https://github.com/MyBotzz/RashmikaBot")
-        ]]
+            InlineKeyboardButton('🏘 𝐇𝐨𝐦𝐞', callback_data='start'),
+            InlineKeyboardButton('🚪 𝐂𝐥𝐨𝐬𝐞', callback_data='close_data')
+        ]] 
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
