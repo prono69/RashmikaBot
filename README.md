@@ -142,13 +142,8 @@ The fastest way to deploy the application is to click the **Deploy to Koyeb** bu
 
 [![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/Joelkb/DQ-The-FIle-Donor&branch=koyeb&name=dqthefiledonor)
 
-
-
-
 ## Credits 
 * [![EvaMaria-Devs](https://img.shields.io/static/v1?label=EvaMaria&message=devs&color=critical)](https://telegram.dog/EvaMariaDevs)
-* [![Joel-TGX](https://img.shields.io/static/v1?label=Jᴏᴇʟ+ᠰ+TɢX&message=Github&color=critical)](https://github.com/Joelkb)
-* [![ɛӼ_ռöֆ__⁷⁷⁷✘](https://img.shields.io/static/v1?label=ɛӼ_ռöֆ__⁷⁷⁷✘&message=Github&color=critical)](https://github.com/MyBotzz)
 * [![Contact](https://img.shields.io/static/v1?label=Contact+Developer&message=On+Telegram&color=critical)](https://telegram.me/AFxSU)
 
 ## Thanks to 
