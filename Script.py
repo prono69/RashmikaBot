@@ -192,12 +192,10 @@ Nᴀᴍᴇ - {}"""
     IMDB_TEMPLATE_TXT = """
 <b>Query: {query}
 IMDb Data:
-
-📺 Tɪᴛʟᴇ: <a href={url}>{title}</a>
-🎭 Gᴇɴʀᴇs: {genres}
-💀 Rᴇʟᴇᴀsᴇ: <code>{release_date}<code> <code>{countries}<code> 
-🌟 Rᴀᴛɪɴɢ: <code>{rating}<code>
-📖 Sᴛᴏʀʏ: <code>{plot}</code> / 10</b>"""
+🏷 Title: <a href={url}>{title}</a>
+🎭 Genres: {genres}
+📆 Year: <a href={url}/releaseinfo>{year}</a>
+🌟 Rating: <a href={url}/ratings>{rating}</a> / 10</b>"""
     
     ALL_FILTERS = """
 <b>Hᴇʏ {}, Tʜᴇsᴇ ᴀʀᴇ ᴍʏ ᴛʜʀᴇᴇ ᴛʏᴘᴇs ᴏғ ғɪʟᴛᴇʀs.</b>"""
