@@ -138,7 +138,7 @@ async def start(client, message):
                           [
                            [
                             InlineKeyboardButton('Dᴇʟᴇᴛᴇ', callback_data='close_data'),
-                            InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url=f"https://t.me/bots_supported")
+                            InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url=f"https://t.me/Neko_Drive")
                           ]
                         ]
                     )
@@ -155,7 +155,7 @@ async def start(client, message):
                           [
                            [
                             InlineKeyboardButton('Dᴇʟᴇᴛᴇ', callback_data='close_data'),
-                            InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url=f"https://t.me/bots_supported")
+                            InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url=f"https://t.me/Neko_Drive")
                           ]
                         ]
                     )
@@ -224,7 +224,7 @@ async def start(client, message):
                       [
                            [
                             InlineKeyboardButton('Dᴇʟᴇᴛᴇ', callback_data='close_data'),
-                            InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url=f"https://t.me/bots_supported")
+                            InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url=f"https://t.me/Neko_Drive")
                           ]
                         ]
                     )
@@ -265,7 +265,7 @@ async def start(client, message):
                        [
                            [
                             InlineKeyboardButton('Dᴇʟᴇᴛᴇ', callback_data='close_data'),
-                            InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url=f"https://t.me/bots_supported")
+                            InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url=f"https://t.me/Neko_Drive")
                           ]
                         ]
                     )
